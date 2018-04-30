@@ -13,7 +13,7 @@ services:
       PLUGINS: >-
         academic-bloggers-toolkit
         co-authors-plus
-        [WP-API]https://github.com/WP-API/WP-API/archive/master.zip
+        [rest-api]https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip
   db:
     image: mariadb:10 # or mysql:5.7
     volumes:
